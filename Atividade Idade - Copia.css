@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</Atividade Idade>
+
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/estiloform.css">
+</head>
+
+<div class="elemento-form">
+
+<label for="idade-front"> Idade: </label>
+<input type="text" idade="idade-back" id="idade-front" placeholder="Digite sua idade aqui" required>
+
+
+<div class="elemento-form">
+
+<label for="idade-front"> menor de 18 anos => "Menor de Idade": </label>
+<input type="number" name="idade-back" id="idade-front"  min=">0"  max="<18">
+
+</div>
+
+<div class="elemento-form">
+
+<label for="idade-front"> igual de 18 anos => "Jovem": </label>
+<input type="number" name="idade-back" id="idade-front"  min=">18"  max="<25">
+
+</div>
+
+
+<div class="elemento-form">
+
+<label for="idade-front"> igual de 25 anos => "Jovem Adulto": </label>
+<input type="number" name="idade-back" id="idade-front"  min=">25"  max="<45">
+
+</div>
+
+<div class="elemento-form">
+
+<label for="idade-front"> igual de 45 anos => "Adulto": </label>
+<input type="number" name="idade-back" id="idade-front"  min=">45"  max="<60">
+
+</div>
+
+<div class="elemento-form">
+
+<label for="idade-front"> igual de 60 anos => "Voce está na Terceira Idade!": </label>
+<input type="number" name="idade-back" id="idade-front"  min=">60"  max=<"130">
+
+</div>
+
+</div>
+
+<input type="radio" idade="menor" id="menor-de-idade-front" value="Idade">
+<label for="menor-de-idade-front">Menor de Idade</label>
+<br>
+
+<input type="radio" idade="jovem" id="jovem-front" value="Idade">
+<label for="jovem-front">Jovem</label>
+<br>
+
+<input type="radio" idade="jovem adulto" id="jovem-adulto-front" value="Idade">
+<label for="jovem-adulto-front">Jovem Adulto</label>
+<br>
+
+<input type="radio" idade="adulto" id="adulto-front" value="Idade">
+<label for="adulto-front">Adulto</label>
+<br>
+
+<input type="radio" idade="terceira idade" id="terceira-idade-front" value="Idade">
+<label for="terceira-idade-front">Terceira Idade</label>
+<br>
+
+</div>
+<br>
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html Lang=" pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http -equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Atividade Media de Notas v2.0</title>
+
+    </head>
+    <body>
+        <main>
+            <h1>Media de Notas v2.0</h1>
+            <form action="media de notas.html" method="GET" name ="form-media de notas" onsubmit="calcular();">
+                <div>
+                    <label for="numero1">Primeiro número:</label>
+                    <input type="text" name="num1" id="numero1"
+                    placeholder="Digite o primeiro número..." class='form-input'>
+                    
+                </div>
+                <div>
+                    <label for="numero2">Segundo número:</label>
+                    <input type="text" name="num2" id="numero2"
+                    placeholder="Digite o segundo número" class='form-input'>
+
+                    <div class="elemento-form">
+
+                        <label for="media-front">  menor que 5 => "Reprovado": </label>
+                        <input type="number" name="media-back" id="media-front"  min="=>0"  max="<5">
+                        
+                        </div>
+
+                        <div class="elemento-form">
+
+                            <label for="media-front">  entre 5  e 8 => "Aprovado": </label>
+                            <input type="number" name="media-back" id="media-front"  min="=>5"  max="<8">
+                            
+                            </div>
+
+                            <div class="elemento-form">
+
+                                <label for="media-front">  entre 8  e 10 => "Aprovado com Destaque": </label>
+                                <input type="number" name="media-back" id="media-front"  min="=>8"  max="<10">
+                                
+                                </div>
+
+                            </div>
+
+                            <input type="radio" media="menor" id="menor-que-5-front" value="Media">
+                            <label for="menor-que-5-front">Reprovado</label>
+                            <br>
+
+
+                        </div>
+
+                        <input type="radio" media="entre 5 e 8" id="entre-5-e-8-front" value="Media">
+                        <label for="entre-5-e-8-front">Aprovado</label>
+                        <br>
+                    
+                    </div>
+
+                    <input type="radio" media="entre 8 e 10" id="entre-8-e-10-front" value="Media">
+                    <label for="entre-8-e-10-front">Aprovado com Destaque</label>
+                    <br>
+
+        
+                
+                </div>
+                <div>

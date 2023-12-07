@@ -1,0 +1,28 @@
+.resultado{
+    color:red;
+    font-size: 20px;
+    font-weight:bold;
+
+    form{
+        width:20%;
+        margin: auto;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(171, 196, 219); 
+        background-color: rgb(241, 236, 189);
+        font-size: 20px;
+    }
+     
+    fieldset { 
+        border: 10px groove rgb(227, 233, 227); 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .elemento-form {
+        color: rgb(184, 179, 179);
+        padding: 15px;
+    } 
+}
+
